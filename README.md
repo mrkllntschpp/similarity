@@ -45,8 +45,8 @@ Here are just a few of the common distance metrics provided by this repository:
    - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
 
 3. **$L_p$-Norm (Minkowski Distance):**
-   - Formula: ${\left(\sum{(X_i - Y_i)^p}}\right)^\frac{1}{p}$
-   - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
+   - Formula: $\left{(\sum{(X_i - Y_i)^p}}\right)^\frac{1}{p}$
+   - Description: Calculates the difference raised to the $p$ power and then the root of $1/p$ is applied.
 
 4. **$L_∞$-Norm (Chebyshev Distance):**
    - Formula: $\max(|X_i - Y_i|)$
