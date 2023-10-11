@@ -22,7 +22,7 @@ The similarity metrics in this repository are organized into different families,
 
 - **Fidelity (Squared-Chord) Family:** Contains measures related to the sum of the square root of the inner product, referred to as the Fidelity similarity.
 
-- **Squared $L_2$ ($\Chi^2$) Family:** Contains measures related to the square of the L2 (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
+- **Squared $L_2$ ($\chi^2$) Family:** Contains measures related to the square of the L2 (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
 
 - **Shannon's Entropy Family:** Contains measures related to Shannon's concept of probabilistic uncertainty or entropy.
 
