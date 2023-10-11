@@ -2,6 +2,11 @@
 
 In today's data-driven research landscape, quantifying the similarity or difference between datasets is essential for various applications. Datasets come in diverse forms, including scalar values, 1-dimensional vectors, 2-dimensional matrices, and n-dimensional tensors. To enable this comparison, various mathematical measures are employed to assess the similarity or dissimilarity (distance) between these data structures.
 
+References:
+1. Tschopp, Mark & Hernandez-Rivera, Efrain. (2017). Quantifying Similarity and Distance Measures for Vector-Based Datasets: Histograms, Signals, and Probability Distribution Functions. [10.13140/RG.2.2.29186.99525. ](http://dx.doi.org/10.13140/RG.2.2.29186.99525)
+
+1. Hernandez-Rivera, Efrain & Coleman, Shawn & Tschopp, Mark. (2016). Using Similarity Metrics to Quantify Differences in High-Throughput Datasets: Application to X-Ray Diffraction Patterns. ACS Combinatorial Science. 19. [10.1021/acscombsci.6b00142. ](http://dx.doi.org/10.1021/acscombsci.6b00142)
+
 ## Overview
 
 This repository provides a collection of similarity and distance metrics designed to address a wide range of data types. These metrics help researchers, data scientists, and engineers analyze, compare, and interpret their data effectively. Whether you are working with numerical data, text, images, or any other type of information, these metrics offer versatile solutions for your research needs.
