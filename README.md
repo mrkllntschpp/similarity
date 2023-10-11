@@ -12,17 +12,17 @@ This repository provides a collection of similarity and distance metrics designe
 
 The similarity metrics in this repository are organized into different families, each catering to specific use cases. Below, we provide a brief overview of these families:
 
-- **$L_p$ Minkowski Family:** Contains measures related to the generalized formula, where p encompasses a wide range of distance norms from the L1 (city block distance) to the Chebyshev L∞ distance.
+- **$L_p$ Minkowski Family:** Contains measures related to the generalized formula, where p encompasses a wide range of distance norms from the $L_1$ (city block distance) to the Chebyshev $L_∞$ distance.
 
 - **$L_1$ Family:** Contains measures related to the absolute difference $L_1$ distance (i.e., the sum of absolute differences between corresponding data points).
 
-- **Intersection Family:** Contains measures related to the intersection of X and Y. The min(X, Y) or max(X, Y) term appears in either the denominator or numerator for this family.
+- **Intersection Family:** Contains measures related to the intersection of X and Y. The $\min{(X, Y)}$ or $\max{(X, Y)}$ term appears in either the denominator or numerator for this family.
 
 - **Inner Product Family:** Contains measures related to the summed inner product or dot product of X and Y (i.e., the sum of the product of corresponding data points).
 
 - **Fidelity (Squared-Chord) Family:** Contains measures related to the sum of the square root of the inner product, referred to as the Fidelity similarity.
 
-- **Squared $L_2$ ($\chi^2$) Family:** Contains measures related to the square of the L2 (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
+- **Squared $L_2$ ($\chi^2$) Family:** Contains measures related to the square of the $L_2$ (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
 
 - **Shannon's Entropy Family:** Contains measures related to Shannon's concept of probabilistic uncertainty or entropy.
 
