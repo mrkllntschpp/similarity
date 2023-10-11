@@ -32,7 +32,7 @@ The similarity metrics in this repository are organized into different families,
 
 Please note that while these metrics offer powerful ways to quantify similarity, there are some caveats to their implementation, most notably errors associated with division by zero or taking the log of zero.
 
-## Example of Distance Metrics in $L_p$ Minkowski Family
+## Example of Distance Metrics in Lp Minkowski Family
 
 Here are just a few of the common distance metrics provided by this repository:
 
@@ -41,10 +41,14 @@ Here are just a few of the common distance metrics provided by this repository:
    - Description: Computes the sum of the absolute differences between corresponding data points. It is related to the mean absolute error.
 
 2. **$L_2$-Norm (Euclidean Distance):**
-   - Formula: $\sqrt{\sum{(X_i^2 - Y_i^2)}}$
+   - Formula: $\sqrt{\sum{(X_i - Y_i)^2}}$
    - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
 
-3. **$L_∞$-Norm (Chebyshev Distance):**
+3. **$L_p$-Norm (Minkowski Distance):**
+   - Formula: ${\sum{(X_i - Y_i)^p}}^\frac{1}{p}$
+   - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
+
+4. **$L_∞$-Norm (Chebyshev Distance):**
    - Formula: $\max(|X_i - Y_i|)$
    - Description: Measures the maximum distance between the two datasets.
 
