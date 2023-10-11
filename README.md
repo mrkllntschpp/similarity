@@ -19,7 +19,7 @@ Here are just a few of the common distance metrics provided by this repository:
    - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
 
 3. **L∞-Norm (Chebyshev Distance):**
-   - Formula: $\max(|$X_i - Y_i$|)$
+   - Formula: $\max(|X_i - Y_i|)$
    - Description: Measures the maximum distance between the two datasets.
 
 ## Explore Further
