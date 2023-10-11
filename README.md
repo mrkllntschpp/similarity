@@ -6,45 +6,47 @@ In today's data-driven research landscape, quantifying the similarity or differe
 
 This repository provides a collection of similarity and distance metrics designed to address a wide range of data types. These metrics help researchers, data scientists, and engineers analyze, compare, and interpret their data effectively. Whether you are working with numerical data, text, images, or any other type of information, these metrics offer versatile solutions for your research needs.
 
-## Example of Distance Metrics
 
-Here are just a few of the common distance metrics provided by this repository:
-
-1. **L1-Norm (Manhattan Distance):**
-   - Formula: $\sum{|X_i - Y_i|}$
-   - Description: Computes the sum of the absolute differences between corresponding data points. It is related to the mean absolute error.
-
-2. **L2-Norm (Euclidean Distance):**
-   - Formula: $\sqrt{\sum{(X_i^2 - Y_i^2)}}$
-   - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
-
-3. **L∞-Norm (Chebyshev Distance):**
-   - Formula: $\max(|X_i - Y_i|)$
-   - Description: Measures the maximum distance between the two datasets.
 
 ### Distance and Similarity Families
 
 The similarity metrics in this repository are organized into different families, each catering to specific use cases. Below, we provide a brief overview of these families:
 
-- **Lp Minkowski Family (Table 1):** Contains measures related to the generalized formula, where p encompasses a wide range of distance norms from the L1 (city block distance) to the Chebyshev L∞ distance.
+- **$L_p$ Minkowski Family:** Contains measures related to the generalized formula, where p encompasses a wide range of distance norms from the L1 (city block distance) to the Chebyshev L∞ distance.
 
-- **L1 Family (Table 2):** Contains measures related to the absolute difference L1 distance (i.e., the sum of absolute differences between corresponding data points).
+- **$L_1$ Family:** Contains measures related to the absolute difference $L_1$ distance (i.e., the sum of absolute differences between corresponding data points).
 
-- **Intersection Family (Table 3):** Contains measures related to the intersection of X and Y. The min(X, Y) or max(X, Y) term appears in either the denominator or numerator for this family.
+- **Intersection Family:** Contains measures related to the intersection of X and Y. The min(X, Y) or max(X, Y) term appears in either the denominator or numerator for this family.
 
-- **Inner Product Family (Table 4):** Contains measures related to the summed inner product or dot product of X and Y (i.e., the sum of the product of corresponding data points).
+- **Inner Product Family:** Contains measures related to the summed inner product or dot product of X and Y (i.e., the sum of the product of corresponding data points).
 
-- **Fidelity (Squared-Chord) Family (Table 5):** Contains measures related to the sum of the square root of the inner product, referred to as the Fidelity similarity.
+- **Fidelity (Squared-Chord) Family:** Contains measures related to the sum of the square root of the inner product, referred to as the Fidelity similarity.
 
-- **Squared L2 (χ^2) Family (Table 6):** Contains measures related to the square of the L2 (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
+- **Squared $L_2$ ($\Chi^2$) Family:** Contains measures related to the square of the L2 (Euclidean) norm, with some measures providing asymmetric responses if X and Y are swapped.
 
-- **Shannon's Entropy Family (Table 7):** Contains measures related to Shannon's concept of probabilistic uncertainty or entropy.
+- **Shannon's Entropy Family:** Contains measures related to Shannon's concept of probabilistic uncertainty or entropy.
 
-- **Combination Family (Table 8):** Contains measures that combine concepts from multiple families, offering a comprehensive approach to similarity.
+- **Combination Family:** Contains measures that combine concepts from multiple families, offering a comprehensive approach to similarity.
 
-- **Vicissitude Family (Table 9):** Contains a variety of measures introduced in [Reference to Chapter 2].
+- **Vicissitude Family:** Contains a variety of measures.
 
 Please note that while these metrics offer powerful ways to quantify similarity, there are some caveats to their implementation, most notably errors associated with division by zero or taking the log of zero.
+
+## Example of Distance Metrics in $L_p$ Minkowski Family
+
+Here are just a few of the common distance metrics provided by this repository:
+
+1. **$L_1$-Norm (Manhattan Distance):**
+   - Formula: $\sum{|X_i - Y_i|}$
+   - Description: Computes the sum of the absolute differences between corresponding data points. It is related to the mean absolute error.
+
+2. **$L_2$-Norm (Euclidean Distance):**
+   - Formula: $\sqrt{\sum{(X_i^2 - Y_i^2)}}$
+   - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
+
+3. **$L_∞$-Norm (Chebyshev Distance):**
+   - Formula: $\max(|X_i - Y_i|)$
+   - Description: Measures the maximum distance between the two datasets.
 
 
 ## Explore Further
