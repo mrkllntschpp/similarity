@@ -8,7 +8,7 @@ This repository provides a collection of similarity and distance metrics designe
 
 ## Key Distance Metrics
 
-Here are some common distance metrics provided by this repository:
+Here are just a few of the common distance metrics provided by this repository:
 
 1. **L1-Norm (Manhattan Distance):**
    - Formula: $\sum{|X_i - Y_i|}$
@@ -19,7 +19,7 @@ Here are some common distance metrics provided by this repository:
    - Description: Calculates the square root of the sum of squared differences between corresponding data points. This is related to the root mean squared error.
 
 3. **L∞-Norm (Chebyshev Distance):**
-   - Formula: Max(|$X_i - Y_i$|)
+   - Formula: $\max(|$X_i - Y_i$|)$
    - Description: Measures the maximum distance between the two datasets.
 
 ## Explore Further
@@ -37,7 +37,3 @@ Contributions and improvements to this repository are highly encouraged. If you 
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Note:** Ensure that you replace the placeholders with actual links to your documentation, code examples, and license file. Providing clear instructions and making it easy for users to get started will help promote engagement with your repository.
