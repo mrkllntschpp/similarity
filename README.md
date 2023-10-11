@@ -52,11 +52,6 @@ Here are just a few of the common distance metrics provided by this repository:
    - Formula: $\max(|X_i - Y_i|)$
    - Description: Measures the maximum distance between the two datasets.
 
-
-## Explore Further
-
-These are just a few examples of distance metrics related to the Lp Minkowski norms, and they represent only a fraction of the available similarity and distance measures. This repository provides a comprehensive collection of such metrics, making it a valuable resource for your research projects.
-
 ## Getting Started
 
 To get started with using these similarity metrics, please refer to the documentation and code examples provided in the relevant folders and files.
