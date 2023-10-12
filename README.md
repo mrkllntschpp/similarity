@@ -2,6 +2,10 @@
 
 In today's data-driven research landscape, quantifying the similarity or difference between datasets is essential for various applications. Datasets come in diverse forms, including scalar values, 1-dimensional vectors, 2-dimensional matrices, and n-dimensional tensors. To enable this comparison, various mathematical measures are employed to assess the similarity or dissimilarity (distance) between these data structures.
 
+<p align="center">
+  <img src="Metric-ranking-linkage-across-six-different-expected-peak-features-The-highlighted.png" width="60%" alt="Metric ranking linkage across six different expected peak features. The highlighted metrics correspond to those that are highly ranked for a feature, but lowly ranked for another (i.e., more and less sensitive, respectively).">
+</p>
+
 References:
 1. Tschopp, Mark & Hernandez-Rivera, Efrain. (2017). Quantifying Similarity and Distance Measures for Vector-Based Datasets: Histograms, Signals, and Probability Distribution Functions. [10.13140/RG.2.2.29186.99525. ](http://dx.doi.org/10.13140/RG.2.2.29186.99525)
 
@@ -59,7 +63,7 @@ Here are just a few of the common distance metrics provided by this repository:
 
 ## Getting Started
 
-To get started with using these similarity metrics, please refer to the documentation and code examples provided in the relevant folders and files.
+The similarity metrics code in Python and MATLAB is provided in the corresponding files.
 
 ## Contributions
 
